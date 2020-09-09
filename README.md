@@ -15,7 +15,7 @@ This class was developed and tested using PHP v7.2 using the CURL module but sho
 
 #### Configuration  
 
-For testing, I created a file that the class will read from called `template_credentials.ini` which will contain your credential information as well the AWS request details such as the `region` and `secret_id` etc. This helps by preventing you from storing this sensitive information hard-coded in the code and from being stored in your repo.  
+For testing, I created a file that the class will read from called `credentials.ini` which will contain your credential information as well the AWS request details such as the `region` and `secret_id` etc. This helps by preventing you from storing this sensitive information hard-coded in the code and from being stored in your repo.  
 
 This file should contain the following:  
 
